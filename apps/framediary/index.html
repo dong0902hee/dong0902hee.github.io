@@ -1,15 +1,186 @@
 <!doctype html>
-<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="기준 사진과 가이드로 다시 촬영하고, 날짜별 기록을 직접 비교하세요. FrameDiary 화면과 사용 가이드."><meta name="theme-color" content="#f7f7f2">
-<meta property="og:title" content="FrameDiary 프레임다이어리 | 같은 구도로 쌓아가는 사진 기록"><meta property="og:description" content="기준 사진과 가이드로 다시 촬영하고, 날짜별 기록을 직접 비교하세요. FrameDiary 화면과 사용 가이드."><meta property="og:type" content="website"><meta property="og:url" content="https://dong0902hee.github.io/apps/framediary/">
-<link rel="canonical" href="https://dong0902hee.github.io/apps/framediary/"><link rel="icon" type="image/png" href="/assets/framediary/icon.png">
-<title>FrameDiary 프레임다이어리 | 같은 구도로 쌓아가는 사진 기록</title><link rel="stylesheet" href="/assets/site.css"><script src="/assets/site.js" defer></script></head>
-<body><a class="skip" href="#main">본문으로 이동</a><header class="site-header"><div class="wrap header-row"><a class="brand app-brand" href="/apps/framediary/"><img src="/assets/framediary/icon.png" alt="" width="38" height="38"><span>FrameDiary<span class="brand-sub">프레임다이어리</span></span></a><nav aria-label="주 메뉴"><a href="/apps/framediary/" aria-current="page">앱 소개</a><a href="/apps/framediary/guide/">사용 가이드</a><a href="/apps/framediary/design/">화면과 디자인</a><a href="/">모든 앱</a></nav></div></header><main id="main">
-<div class="wrap"><section class="app-hero"><div><div class="hero-app-label"><img src="/assets/framediary/icon.png" alt="" width="44" height="44"><span>FrameDiary · 프레임다이어리</span></div><p class="eyebrow">YOUR FRAME, OVER TIME</p><h1>오늘의 한 장이<br>내일의 기준이 되도록.</h1><p class="lead">같은 대상을 비슷한 구도로 다시 촬영하고,<br>날짜별로 쌓인 사진을 내 눈으로 비교하세요.</p><div class="actions"><a class="button primary" href="https://play.google.com/store/apps/details?id=io.github.dong0902hee.framediary">Google Play에서 보기 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a><a class="button" href="/apps/framediary/guide/">처음 사용하기 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div><p class="sample-note">Android용 앱 · 앱 화면은 샘플 데이터로 구성했습니다.</p></div><div class="visual-stage" aria-label="가이드 홈과 비교 화면 예시"><div class="phone"><img src="/assets/framediary/screens/home.png" alt="FrameDiary 가이드 홈" width="786" height="1704" fetchpriority="high"></div><div class="phone"><img src="/assets/framediary/screens/compare.png" alt="FrameDiary 두 장 비교 화면" width="786" height="1704"></div><span class="stage-label">ONE SUBJECT. MANY MOMENTS.</span></div></section>
-<div class="app-facts"><div><span>01 / GUIDE</span><h2>기준을 남기고</h2><p>기준 사진과 선·템플릿으로 다음 촬영을 준비합니다.</p></div><div><span>02 / RECORD</span><h2>시간을 쌓고</h2><p>촬영하거나 사진첩에서 가져와 기록을 이어갑니다.</p></div><div><span>03 / COMPARE</span><h2>직접 비교합니다</h2><p>자동 점수나 판정 없이, 내 눈으로 변화를 살펴봅니다.</p></div></div>
-<section class="section feature-layout"><div class="feature-copy"><p class="eyebrow">LOOK BACK, YOUR WAY</p><h2>비교의 주도권은<br>언제나 내 손에.</h2><p>사진 두 장을 나란히 넘겨 보거나 겹쳐 보세요. 여러 장은 Stack에서 순서와 투명도를 바꾸며 살펴볼 수 있습니다.</p><ol class="feature-list"><li><span>01</span>좌우·상하 경계를 움직이는 Wipe</li><li><span>02</span>투명도를 조절하는 Overlay</li><li><span>03</span>여러 시점을 겹쳐 보는 Stack</li></ol><a class="small-link" href="/apps/framediary/guide/#compare">비교 방법 알아보기 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div><div><div class="comparison" data-comparison><img src="/assets/framediary/demo_ridge_01_autumn.png" alt="가을 색감의 자체 제작 풍경 샘플" width="480" height="640" loading="lazy"><div class="compare-top"><img src="/assets/framediary/demo_ridge_04_spring.png" alt="봄 색감의 같은 구도 샘플" width="480" height="640" loading="lazy"></div><div class="compare-line"><span class="compare-knob">↔</span></div><span class="compare-label before">봄의 기록</span><span class="compare-label after">가을의 기록</span></div><label class="compare-control">비교 경계 위치<input type="range" min="0" max="100" value="50" data-compare-range aria-label="비교 경계 위치"></label><p class="sample-note">슬라이더를 움직여 보세요. 직접 제작한 예시 이미지이며, 자동 분석이 아닙니다.</p></div></section>
-<section class="section" id="screens"><div class="section-head"><div><p class="eyebrow">A CLOSER LOOK</p><h2>앱을 먼저 둘러보세요.</h2><p>화면을 누르면 크게 볼 수 있습니다.</p></div><a class="small-link" href="/apps/framediary/design/">디자인 살펴보기 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div><div class="screen-grid"><figure class="screen-card"><a class="screen-link" data-screen="가이드 홈" href="/assets/framediary/screens/home.png" aria-label="가이드 홈 화면 크게 보기"><img src="/assets/framediary/screens/home.png" alt="가이드 홈: 자체 제작 샘플 데이터를 사용한 FrameDiary 화면" width="786" height="1704" loading="lazy"></a><figcaption><span>01 / FRAMEDIARY</span><h3>가이드 홈</h3><p>촬영과 사진 추가, 비교를 한곳에서 시작합니다.</p></figcaption></figure><figure class="screen-card"><a class="screen-link" data-screen="기록 목록" href="/assets/framediary/screens/records.png" aria-label="기록 목록 화면 크게 보기"><img src="/assets/framediary/screens/records.png" alt="기록 목록: 자체 제작 샘플 데이터를 사용한 FrameDiary 화면" width="786" height="1704" loading="lazy"></a><figcaption><span>02 / FRAMEDIARY</span><h3>기록 목록</h3><p>날짜별로 쌓인 기록을 보고 여러 장을 선택합니다.</p></figcaption></figure><figure class="screen-card"><a class="screen-link" data-screen="원본 사진 보기" href="/assets/framediary/screens/detail.png" aria-label="원본 사진 보기 화면 크게 보기"><img src="/assets/framediary/screens/detail.png" alt="원본 사진 보기: 자체 제작 샘플 데이터를 사용한 FrameDiary 화면" width="786" height="1704" loading="lazy"></a><figcaption><span>03 / FRAMEDIARY</span><h3>원본 사진 보기</h3><p>상세 사진을 크게 보고 원본을 확대·이동합니다.</p></figcaption></figure><figure class="screen-card"><a class="screen-link" data-screen="두 장 비교" href="/assets/framediary/screens/compare.png" aria-label="두 장 비교 화면 크게 보기"><img src="/assets/framediary/screens/compare.png" alt="두 장 비교: 자체 제작 샘플 데이터를 사용한 FrameDiary 화면" width="786" height="1704" loading="lazy"></a><figcaption><span>04 / FRAMEDIARY</span><h3>두 장 비교</h3><p>좌우·상하·겹쳐보기로 사진을 직접 비교합니다.</p></figcaption></figure><figure class="screen-card"><a class="screen-link" data-screen="여러 장 겹쳐보기" href="/assets/framediary/screens/stack.png" aria-label="여러 장 겹쳐보기 화면 크게 보기"><img src="/assets/framediary/screens/stack.png" alt="여러 장 겹쳐보기: 자체 제작 샘플 데이터를 사용한 FrameDiary 화면" width="786" height="1704" loading="lazy"></a><figcaption><span>05 / FRAMEDIARY</span><h3>여러 장 겹쳐보기</h3><p>레이어 순서와 투명도를 내 손으로 조절합니다.</p></figcaption></figure><figure class="screen-card"><a class="screen-link" data-screen="가이드 목록" href="/assets/framediary/screens/guides.png" aria-label="가이드 목록 화면 크게 보기"><img src="/assets/framediary/screens/guides.png" alt="가이드 목록: 자체 제작 샘플 데이터를 사용한 FrameDiary 화면" width="786" height="1704" loading="lazy"></a><figcaption><span>06 / FRAMEDIARY</span><h3>가이드 목록</h3><p>촬영 기준을 선택하고 파일로 공유·불러옵니다.</p></figcaption></figure></div><p class="sample-note">+25 UI를 자체 제작한 샘플 사진으로 렌더링했습니다. 기기·앱 버전에 따라 표시가 다를 수 있습니다. 광고는 이 예시에서 제외했습니다.</p></section>
-<section class="section"><div class="guide-cta"><div><p class="eyebrow" style="color:#aebed4">YOUR FIRST RECORD</p><h2>첫 기록, 함께 시작해볼까요?</h2><p>가이드 만들기부터 비교 결과 저장까지, 차근차근 안내합니다.</p></div><a class="button" href="/apps/framediary/guide/">사용 가이드 보기 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div></section>
-<section class="section feature-layout"><div><p class="eyebrow">YOUR PHOTOS, YOUR RECORDS</p><h2>기록은 기기 안에.</h2><p class="lead">사진과 촬영 기록은 기본적으로 기기에 저장됩니다.<br>내보내기와 가이드 공유는 사용자가 직접 선택합니다.</p></div><div><p>앱에는 광고와 선택적 인앱 구매가 포함될 수 있습니다. 사진 저장과 권한, 광고·동의 관련 자세한 내용은 개인정보처리방침에서 확인하세요.</p><a class="small-link" href="https://dong0902hee.github.io/privacy-policy/framediary.html">개인정보처리방침 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a></div></section></div>
-</main><footer class="site-footer"><div class="wrap footer-row"><div><strong>작은 도구, 오래 쓰는 즐거움.</strong><p>© 2026 dong0902hee</p></div><nav aria-label="하단 메뉴"><a href="/">모든 앱</a><a href="https://dong0902hee.github.io/privacy-policy/framediary.html">개인정보처리방침</a><a href="mailto:won09026@gmail.com">문의하기</a><a href="https://github.com/dong0902hee">GitHub</a></nav></div></footer>
-<dialog class="image-dialog" id="image-viewer" aria-label="앱 화면 크게 보기"><form method="dialog"><button class="dialog-close" aria-label="화면 닫기">닫기 ×</button></form><img id="viewer-image" alt=""><p id="viewer-caption"></p></dialog></body></html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FrameDiary 프레임다이어리 | 같은 구도로 쌓아가는 사진 기록</title><meta name="description" content="기준을 만들고 사진을 쌓아 직접 비교하는 FrameDiary. 촬영·템플릿·기록·사용 가이드를 만나보세요."><meta name="theme-color" content="#FFFFFF"><link rel="canonical" href="https://dong0902hee.github.io/apps/framediary/"><meta property="og:title" content="FrameDiary 프레임다이어리 | 같은 구도로 쌓아가는 사진 기록"><meta property="og:description" content="기준을 만들고 사진을 쌓아 직접 비교하는 FrameDiary. 촬영·템플릿·기록·사용 가이드를 만나보세요."><meta property="og:image" content="https://dong0902hee.github.io/assets/framediary/icon.png"><link rel="icon" href="/assets/framediary/site-design/icon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/fonts/fonts-21ab386ecc7e.css"><link rel="stylesheet" href="/assets/site-theme-48ea6243ad61.css"></head><body><a class="skip" href="#main">본문으로 이동</a><header class="site-header"><div class="wrap header-row"><a class="brand app-brand" href="/apps/framediary/"><img src="/assets/framediary/site-design/icon.svg" alt="" width="32" height="32"><span>FrameDiary</span></a><nav aria-label="주 메뉴"><a href="/apps/framediary/" aria-current="page">앱 소개</a><a href="/apps/framediary/guide/">사용 가이드</a><a href="/apps/framediary/design/">화면과 디자인</a><a href="/">모든 앱</a></nav><a class="header-cta" href="https://play.google.com/store/apps/details?id=io.github.dong0902hee.framediary"><svg viewBox="0 0 14 15" aria-hidden="true"><path d="M1 1.2v12.6c0 .5.5.8.9.5L12.6 8a.6.6 0 0 0 0-1L1.9.7C1.5.4 1 .7 1 1.2Z"/></svg>Google Play</a></div></header><main id="main">
+
+    <section class="theme-section" data-screen-label="Intro Hero" style="background:linear-gradient(180deg,#F2F6FC 0%,#FFFFFF 100%); overflow:hidden">
+      <div data-hero-grid style="max-width:1180px; margin:0 auto; padding:72px 24px 0; display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,440px),1fr)); gap:48px; align-items:center">
+        <div style="display:flex; flex-direction:column; gap:24px; padding-bottom:72px">
+          <div style="display:flex; align-items:center; gap:8px; align-self:flex-start; height:32px; padding:0 12px 0 6px; border-radius:16px; background:#FFFFFF; border:1px solid #E3EAF4">
+            <img src="/assets/framediary/site-design/brand-mark.svg" width="20" height="20" alt="">
+            <span style="font-size:12.5px; font-weight:700; color:#2A6DF4">같은 구도로 쌓아가는 사진 기록</span>
+          </div>
+          <h1 style="margin:0; font-size:clamp(38px,5.4vw,64px); line-height:1.16; font-weight:900; letter-spacing:-0.035em; color:#10203A; text-wrap:balance">오늘의 한 장이<br>내일의 기준이 되도록.</h1>
+          <p style="margin:0; max-width:460px; font-size:clamp(16px,1.5vw,18px); line-height:1.7; font-weight:500; color:#5B6B80; text-wrap:pretty">기준 사진과 가이드를 촬영 화면에 겹쳐 같은 대상을 같은 구도로 다시 촬영하세요. 날짜별로 쌓인 사진은 내 눈으로 직접 비교합니다.</p>
+          <div style="display:flex; gap:10px; flex-wrap:wrap">
+            <a href="https://play.google.com/store/apps/details?id=io.github.dong0902hee.framediary" style="height:54px; padding:0 24px; border-radius:16px; background:#2A6DF4; color:#FFFFFF; display:flex; align-items:center; gap:10px; font-size:16px; font-weight:700; box-shadow:0 14px 28px -14px rgba(42,109,244,0.8)">
+              <svg width="15" height="16" viewBox="0 0 14 15" aria-hidden="true"><path d="M1 1.2v12.6c0 .5.5.8.9.5L12.6 8a.6.6 0 0 0 0-1L1.9.7C1.5.4 1 .7 1 1.2Z" fill="#FFFFFF"></path></svg>
+              Google Play에서 받기
+            </a>
+            <a href="/apps/framediary/guide/" style="height:54px; padding:0 22px; border-radius:16px; background:#FFFFFF; border:1px solid #DCE4EE; color:#10203A; display:flex; align-items:center; font-size:16px; font-weight:700">처음 사용하기</a>
+          </div>
+          <span style="font-size:12.5px; font-weight:500; color:#8A97A8">Android · 화면은 디자인 예시이며 실제 앱과 일부 다를 수 있습니다.</span>
+        </div>
+        <div data-hero-phones style="position:relative; height:clamp(460px,52vw,620px); display:flex; justify-content:center; align-items:flex-end">
+          <img src="/assets/framediary/site-design/screens/s16-compare.png" alt="두 장 비교 화면" style="position:absolute; bottom:-40px; left:calc(50% - 20px); width:clamp(220px,22vw,272px); transform:rotate(5deg); filter:drop-shadow(0 30px 40px rgba(16,32,58,0.22))">
+          <img src="/assets/framediary/site-design/screens/s13-capture.png" alt="가이드를 겹친 촬영 화면" style="position:absolute; bottom:-80px; right:calc(50% - 30px); width:clamp(240px,24vw,296px); transform:rotate(-4deg); filter:drop-shadow(0 36px 48px rgba(16,32,58,0.3))">
+        </div>
+      </div>
+    </section>
+
+    <section class="theme-section" data-screen-label="Intro Steps" style="background:#FFFFFF; padding:112px 24px">
+      <div style="max-width:1180px; margin:0 auto; display:flex; flex-direction:column; gap:56px">
+        <div style="display:flex; flex-direction:column; gap:14px; max-width:620px">
+          <span style="font-size:14px; font-weight:700; color:#2A6DF4">이렇게 기록합니다</span>
+          <h2 style="margin:0; font-size:clamp(30px,3.6vw,44px); line-height:1.25; font-weight:900; letter-spacing:-0.03em; text-wrap:balance">기준을 남기고, 시간을 쌓고,<br>직접 비교합니다.</h2>
+        </div>
+        <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr)); gap:20px">
+
+            <div style="border-radius:28px; background:#F2F5F9; overflow:hidden; display:flex; flex-direction:column">
+              <div style="padding:28px 28px 0; display:flex; flex-direction:column; gap:10px">
+                <span style="align-self:flex-start; height:26px; padding:0 10px; border-radius:13px; background:#FFFFFF; font-size:12px; font-weight:800; color:#2A6DF4; display:flex; align-items:center">01 · 가이드</span>
+                <h3 style="margin:0; font-size:22px; font-weight:800; letter-spacing:-0.02em; color:#10203A">기준을 남기고</h3>
+                <p style="margin:0; font-size:15px; line-height:1.65; font-weight:500; color:#5B6B80; text-wrap:pretty">기준 사진 위에 선을 긋거나 템플릿을 올려 다음 촬영의 기준을 만듭니다.</p>
+              </div>
+              <div style="height:340px; margin-top:28px; overflow:hidden; display:flex; justify-content:center">
+                <img loading="lazy" decoding="async" src="/assets/framediary/site-design/screens/s09-template.png" alt="기준을 남기고" style="width:230px; height:auto; align-self:flex-start; filter:drop-shadow(0 20px 30px rgba(16,32,58,0.2))">
+              </div>
+            </div>
+
+            <div style="border-radius:28px; background:#F2F5F9; overflow:hidden; display:flex; flex-direction:column">
+              <div style="padding:28px 28px 0; display:flex; flex-direction:column; gap:10px">
+                <span style="align-self:flex-start; height:26px; padding:0 10px; border-radius:13px; background:#FFFFFF; font-size:12px; font-weight:800; color:#2A6DF4; display:flex; align-items:center">02 · 촬영</span>
+                <h3 style="margin:0; font-size:22px; font-weight:800; letter-spacing:-0.02em; color:#10203A">시간을 쌓고</h3>
+                <p style="margin:0; font-size:15px; line-height:1.65; font-weight:500; color:#5B6B80; text-wrap:pretty">가이드와 직전 사진을 겹쳐 같은 구도로 촬영하거나 사진첩에서 가져옵니다.</p>
+              </div>
+              <div style="height:340px; margin-top:28px; overflow:hidden; display:flex; justify-content:center">
+                <img loading="lazy" decoding="async" src="/assets/framediary/site-design/screens/s13-capture.png" alt="시간을 쌓고" style="width:230px; height:auto; align-self:flex-start; filter:drop-shadow(0 20px 30px rgba(16,32,58,0.2))">
+              </div>
+            </div>
+
+            <div style="border-radius:28px; background:#F2F5F9; overflow:hidden; display:flex; flex-direction:column">
+              <div style="padding:28px 28px 0; display:flex; flex-direction:column; gap:10px">
+                <span style="align-self:flex-start; height:26px; padding:0 10px; border-radius:13px; background:#FFFFFF; font-size:12px; font-weight:800; color:#2A6DF4; display:flex; align-items:center">03 · 비교</span>
+                <h3 style="margin:0; font-size:22px; font-weight:800; letter-spacing:-0.02em; color:#10203A">직접 비교합니다</h3>
+                <p style="margin:0; font-size:15px; line-height:1.65; font-weight:500; color:#5B6B80; text-wrap:pretty">날짜별 기록을 고르고 와이프·오버레이·스택으로 변화를 살펴봅니다.</p>
+              </div>
+              <div style="height:340px; margin-top:28px; overflow:hidden; display:flex; justify-content:center">
+                <img loading="lazy" decoding="async" src="/assets/framediary/site-design/screens/s14-records.png" alt="직접 비교합니다" style="width:230px; height:auto; align-self:flex-start; filter:drop-shadow(0 20px 30px rgba(16,32,58,0.2))">
+              </div>
+            </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="theme-section" data-screen-label="Intro Compare" style="background:#0B1420; padding:112px 24px">
+      <div style="max-width:1180px; margin:0 auto; display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,380px),1fr)); gap:56px; align-items:center">
+        <div style="display:flex; flex-direction:column; gap:20px">
+          <span style="font-size:14px; font-weight:700; color:#6E9BFF">직접 비교</span>
+          <h2 style="margin:0; font-size:clamp(30px,3.6vw,44px); line-height:1.25; font-weight:900; letter-spacing:-0.03em; color:#FFFFFF; text-wrap:balance">같은 구도의 두 장,<br>달라진 점을 한눈에.</h2>
+          <p style="margin:0; max-width:440px; font-size:16px; line-height:1.7; font-weight:500; color:#9AA8BA; text-wrap:pretty">두 장을 경계로 넘겨 보거나 투명도로 겹쳐 보세요. 여러 장은 Stack에서 순서와 투명도를 바꾸며 확인합니다.</p>
+          <div style="display:flex; flex-direction:column; gap:10px; margin-top:8px">
+
+              <div data-mode-row style="display:flex; align-items:center; gap:14px; height:58px; padding:0 18px; border-radius:16px; background:#141F2E">
+                <span style="font-size:13px; font-weight:800; color:#6E9BFF; width:22px">01</span>
+                <span style="font-size:15px; font-weight:700; color:#FFFFFF; width:72px">Wipe</span>
+                <span style="font-size:14px; font-weight:500; color:#9AA8BA">좌우·상하 경계를 움직여 비교</span>
+              </div>
+
+              <div data-mode-row style="display:flex; align-items:center; gap:14px; height:58px; padding:0 18px; border-radius:16px; background:#141F2E">
+                <span style="font-size:13px; font-weight:800; color:#6E9BFF; width:22px">02</span>
+                <span style="font-size:15px; font-weight:700; color:#FFFFFF; width:72px">Overlay</span>
+                <span style="font-size:14px; font-weight:500; color:#9AA8BA">투명도를 조절해 겹쳐 보기</span>
+              </div>
+
+              <div data-mode-row style="display:flex; align-items:center; gap:14px; height:58px; padding:0 18px; border-radius:16px; background:#141F2E">
+                <span style="font-size:13px; font-weight:800; color:#6E9BFF; width:22px">03</span>
+                <span style="font-size:15px; font-weight:700; color:#FFFFFF; width:72px">Stack</span>
+                <span style="font-size:14px; font-weight:500; color:#9AA8BA">여러 시점을 순서대로 겹쳐 보기</span>
+              </div>
+
+          </div>
+        </div>
+        <div style="display:flex; flex-direction:column; gap:14px">
+          <div data-comparison style="--cut:50%;position:relative; aspect-ratio:4/5; border-radius:28px; overflow:hidden; background:#141F2E">
+            <img loading="lazy" decoding="async" src="/assets/framediary/site-design/mountain.jpg" alt="북한산 가이드 10.28 기록" draggable="false" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; filter:saturate(1.1) sepia(0.2) contrast(1.05) hue-rotate(-6deg)">
+            <img loading="lazy" decoding="async" src="/assets/framediary/site-design/mountain.jpg" alt="북한산 가이드 06.18 기록" draggable="false" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; filter:saturate(0.95) brightness(1.12) contrast(0.96) hue-rotate(-4deg); clip-path:inset(0 calc(100% - var(--cut,50%)) 0 0)">
+            <span style="position:absolute; top:16px; left:16px; height:30px; padding:0 12px; border-radius:10px; background:rgba(11,20,32,0.62); color:#FFFFFF; font-size:13px; font-weight:700; display:flex; align-items:center; pointer-events:none">2024.06.18</span>
+            <span style="position:absolute; top:16px; right:16px; height:30px; padding:0 12px; border-radius:10px; background:rgba(11,20,32,0.62); color:#FFFFFF; font-size:13px; font-weight:700; display:flex; align-items:center; pointer-events:none">2024.10.28</span>
+            <span style="position:absolute; left:16px; bottom:16px; height:30px; padding:0 12px; border-radius:10px; background:rgba(11,20,32,0.62); color:#FFFFFF; font-size:13px; font-weight:700; display:flex; align-items:center; pointer-events:none">북한산 가이드</span>
+            <div style="position:absolute; top:0; bottom:0; left:var(--cut,50%); width:2px; margin-left:-1px; background:#FFFFFF; pointer-events:none"></div>
+            <div style="position:absolute; top:50%; left:var(--cut,50%); width:48px; height:48px; margin:-24px 0 0 -24px; border-radius:24px; background:#FFFFFF; display:flex; align-items:center; justify-content:center; box-shadow:0 8px 20px rgba(0,0,0,0.3); pointer-events:none">
+              <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6 3 12l6 6M15 6l6 6-6 6" stroke="#10203A" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+            </div>
+          </div>
+          <input data-compare-range type="range" min="0" max="100" value="50" aria-label="비교 경계 위치" style="width:100%; accent-color:#2A6DF4; cursor:ew-resize">
+          <span style="font-size:12.5px; font-weight:500; color:#9AA8BA">슬라이더로 경계를 움직여 보세요.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="theme-section" data-screen-label="Intro Templates" style="background:#FFFFFF; padding:112px 24px">
+      <div style="max-width:1180px; margin:0 auto; display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr)); gap:56px; align-items:center">
+        <div data-template-copy style="order:2; display:flex; flex-direction:column; gap:20px">
+          <span style="font-size:14px; font-weight:700; color:#2A6DF4">나만의 촬영 기준</span>
+          <h2 style="margin:0; font-size:clamp(30px,3.6vw,44px); line-height:1.25; font-weight:900; letter-spacing:-0.03em; text-wrap:balance">선을 긋거나,<br>템플릿을 올려 두세요.</h2>
+          <p style="margin:0; max-width:460px; font-size:16px; line-height:1.7; font-weight:500; color:#5B6B80; text-wrap:pretty">사람·자연·사물·구도 템플릿을 촬영 화면 위에 올리고 크기와 위치를 직접 맞춥니다. 다음 촬영은 그 기준 위에서 시작합니다.</p>
+          <div style="display:flex; gap:8px; flex-wrap:wrap; margin-top:4px">
+
+              <div style="width:56px; height:56px; border-radius:16px; background:#F2F5F9; display:flex; align-items:center; justify-content:center">
+                <img loading="lazy" decoding="async" src="/assets/framediary/site-design/templates/person-fullbody.png" alt="전신" style="width:32px; height:32px; object-fit:contain">
+              </div>
+
+              <div style="width:56px; height:56px; border-radius:16px; background:#F2F5F9; display:flex; align-items:center; justify-content:center">
+                <img loading="lazy" decoding="async" src="/assets/framediary/site-design/templates/nature-mountain.png" alt="산" style="width:32px; height:32px; object-fit:contain">
+              </div>
+
+              <div style="width:56px; height:56px; border-radius:16px; background:#F2F5F9; display:flex; align-items:center; justify-content:center">
+                <img loading="lazy" decoding="async" src="/assets/framediary/site-design/templates/nature-tree.png" alt="나무" style="width:32px; height:32px; object-fit:contain">
+              </div>
+
+              <div style="width:56px; height:56px; border-radius:16px; background:#F2F5F9; display:flex; align-items:center; justify-content:center">
+                <img loading="lazy" decoding="async" src="/assets/framediary/site-design/templates/nature-flower.png" alt="꽃" style="width:32px; height:32px; object-fit:contain">
+              </div>
+
+              <div style="width:56px; height:56px; border-radius:16px; background:#F2F5F9; display:flex; align-items:center; justify-content:center">
+                <img loading="lazy" decoding="async" src="/assets/framediary/site-design/templates/object-camera.png" alt="카메라" style="width:32px; height:32px; object-fit:contain">
+              </div>
+
+              <div style="width:56px; height:56px; border-radius:16px; background:#F2F5F9; display:flex; align-items:center; justify-content:center">
+                <img loading="lazy" decoding="async" src="/assets/framediary/site-design/templates/object-plant.png" alt="화분" style="width:32px; height:32px; object-fit:contain">
+              </div>
+
+              <div style="width:56px; height:56px; border-radius:16px; background:#F2F5F9; display:flex; align-items:center; justify-content:center">
+                <img loading="lazy" decoding="async" src="/assets/framediary/site-design/templates/pose-thirds.png" alt="3분할" style="width:32px; height:32px; object-fit:contain">
+              </div>
+
+              <div style="width:56px; height:56px; border-radius:16px; background:#F2F5F9; display:flex; align-items:center; justify-content:center">
+                <img loading="lazy" decoding="async" src="/assets/framediary/site-design/templates/pose-symmetry.png" alt="대칭" style="width:32px; height:32px; object-fit:contain">
+              </div>
+
+          </div>
+          <a href="/apps/framediary/design/#templates" style="align-self:flex-start; font-size:15px; font-weight:700; color:#2A6DF4; cursor:pointer; display:flex; align-items:center; gap:6px">템플릿 전체 보기
+            <svg width="8" height="14" viewBox="0 0 8 14" aria-hidden="true"><path d="M1.6 1.4 6.4 7l-4.8 5.6" stroke="#2A6DF4" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+        </div>
+        <div class="template-showcase" data-template-art style="order:1; border-radius:32px; background:#F2F5F9; height:560px; overflow:hidden; display:flex; justify-content:center; gap:16px; padding-top:48px">
+          <img loading="lazy" decoding="async" src="/assets/framediary/site-design/screens/s09-template.png" alt="템플릿 가이드 편집" style="width:240px; height:auto; align-self:flex-start; filter:drop-shadow(0 24px 34px rgba(16,32,58,0.22))">
+          <img loading="lazy" decoding="async" src="/assets/framediary/site-design/screens/s09b-templates.png" alt="템플릿 라이브러리" style="width:240px; height:auto; align-self:flex-start; margin-top:64px; filter:drop-shadow(0 24px 34px rgba(16,32,58,0.18))">
+        </div>
+      </div>
+    </section>
+
+    <section class="theme-section" data-screen-label="Intro Privacy" style="background:#FFFFFF; padding:0 24px 112px">
+      <div data-privacy-card style="max-width:1180px; margin:0 auto; border-radius:32px; background:#2A6DF4; padding:clamp(36px,5vw,64px); display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr)); gap:32px; align-items:end">
+        <div style="display:flex; flex-direction:column; gap:16px">
+          <div style="width:52px; height:52px; border-radius:16px; background:rgba(255,255,255,0.16); display:flex; align-items:center; justify-content:center">
+            <svg width="26" height="26" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.4l6.6 2.5v5.6c0 4-2.7 7.3-6.6 8.9-3.9-1.6-6.6-4.9-6.6-8.9V5.9z" stroke="#FFFFFF" stroke-width="1.8" fill="none" stroke-linejoin="round"></path><path d="M9.2 12.1l2 2 3.6-3.9" stroke="#FFFFFF" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </div>
+          <h2 style="margin:0; font-size:clamp(30px,3.6vw,44px); line-height:1.25; font-weight:900; letter-spacing:-0.03em; color:#FFFFFF">기록은 기기 안에.</h2>
+          <p style="margin:0; max-width:460px; font-size:16px; line-height:1.7; font-weight:500; color:#FFFFFF; text-wrap:pretty">사진과 촬영 기록은 기본적으로 기기에 저장됩니다. 내보내기와 가이드 공유는 사용자가 직접 선택합니다.</p>
+        </div>
+        <div style="display:flex; flex-direction:column; gap:16px; align-items:flex-start">
+          <p style="margin:0; font-size:14px; line-height:1.7; font-weight:500; color:#FFFFFF; text-wrap:pretty">앱에는 광고와 선택적 인앱 구매가 포함될 수 있습니다. 사진 저장·권한·광고 동의에 관한 내용은 개인정보처리방침에서 확인하세요.</p>
+          <a href="https://dong0902hee.github.io/privacy-policy/framediary.html" style="height:48px; padding:0 20px; border-radius:14px; background:#FFFFFF; color:#2A6DF4; display:flex; align-items:center; font-size:15px; font-weight:700">개인정보처리방침</a>
+        </div>
+      </div>
+    </section>
+  <section class="wrap section"><div class="cta-band"><div><p class="eyebrow">YOUR FIRST RECORD</p><h2>첫 기록, 함께 시작해볼까요?</h2><p>촬영부터 원본 보기·비교·내보내기까지 차근차근 안내합니다.</p></div><a class="button primary" href="/apps/framediary/guide/">사용 가이드 보기 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div></section></main><footer class="site-footer"><div class="wrap footer-row"><a class="footer-brand" href="/"><img src="/assets/framediary/site-design/brand-mark.svg" width="24" height="24" alt=""><strong>작은 도구, 오래 쓰는 즐거움.</strong></a><nav aria-label="하단 메뉴"><a href="/">모든 앱</a><a href="https://dong0902hee.github.io/privacy-policy/framediary.html">개인정보처리방침</a><a href="mailto:won09026@gmail.com">문의</a><a href="https://github.com/dong0902hee">GitHub</a><span>© 2026 dong0902hee</span></nav></div><div class="wrap footer-credit"><span>디자인 시안 속 예시 사진: Unsplash · 현재 앱 화면의 예시는 자체 제작 이미지</span><a href="/apps/framediary/credits/">이미지·폰트 출처</a></div></footer><dialog id="image-viewer" aria-label="앱 화면 크게 보기"><div class="viewer-toolbar"><span id="viewer-caption"></span><form method="dialog"><button aria-label="화면 닫기">닫기 ×</button></form></div><img id="viewer-image" alt=""></dialog><script src="/assets/site-ui-f37cfd10e09d.js" defer></script></body></html>
