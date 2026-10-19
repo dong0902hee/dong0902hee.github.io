@@ -1,0 +1,5 @@
+.root-projects .project-cover{position:relative;display:flex;align-items:center;justify-content:center;min-height:420px;padding:48px;background:linear-gradient(145deg,#f2f6fc 0%,#e8f0ff 100%);overflow:hidden}
+.root-projects .project-cover:before,.root-projects .project-cover:after{display:none}
+.root-projects .project-cover img{position:static;inset:auto;width:144px;max-width:100%;height:144px;object-fit:contain;transform:none;border:0;border-radius:32px;box-shadow:0 20px 48px -24px rgba(42,109,244,.45)}
+.root-projects .catalog-hero h1{font-size:clamp(38px,5.4vw,64px)}
+@media(max-width:720px){.root-projects .project-cover{min-height:260px;padding:40px}.root-projects .project-cover img{width:112px;height:112px;border-radius:26px}}
