@@ -1,0 +1,89 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>First Home · FrameDiary 디자인 시안</title><style>*{box-sizing:border-box}body{margin:0;background:#e7ebf0;font-family:"Malgun Gothic","Apple SD Gothic Neo",system-ui,sans-serif}.screen{width:393px;height:852px;margin:auto;pointer-events:none}.screen>div{box-shadow:none!important}html{scrollbar-width:none}@media(min-width:450px){body{padding:24px}}</style></head><body><h1 style="position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)">First Home 디자인 시안</h1><div class="screen"><div data-screen-label="02 First Home" style="width:393px; height:852px; background:#FFFFFF; border-radius:38px; overflow:hidden; display:flex; flex-direction:column; box-shadow:0 24px 60px -24px rgba(16,26,38,0.35)">
+
+      <!-- status bar -->
+      <div style="height:50px; flex:none; display:flex; align-items:center; justify-content:space-between; padding:0 26px 0 30px; background:#FFFFFF">
+        <span style="font-size:14px; font-weight:700; color:#10203A; letter-spacing:0.01em">9:41</span>
+        <div style="display:flex; align-items:center; gap:5px">
+          <svg width="17" height="11" sc-camel-view-box="0 0 17 11"><rect x="0" y="7" width="3" height="4" rx="1" fill="#10203A"></rect><rect x="4.5" y="5" width="3" height="6" rx="1" fill="#10203A"></rect><rect x="9" y="2.5" width="3" height="8.5" rx="1" fill="#10203A"></rect><rect x="13.5" y="0" width="3" height="11" rx="1" fill="#10203A"></rect></svg>
+          <svg width="16" height="11" sc-camel-view-box="0 0 16 11"><circle cx="8" cy="9" r="1.6" fill="#10203A"></circle><path d="M4 6.2a5.6 5.6 0 0 1 8 0" stroke="#10203A" stroke-width="1.6" fill="none" stroke-linecap="round"></path><path d="M1.4 3.4a9.4 9.4 0 0 1 13.2 0" stroke="#10203A" stroke-width="1.6" fill="none" stroke-linecap="round"></path></svg>
+          <svg width="25" height="12" sc-camel-view-box="0 0 25 12"><rect x="0.5" y="0.5" width="20" height="11" rx="3.2" stroke="#10203A" stroke-opacity="0.4" fill="none"></rect><rect x="2" y="2" width="14" height="8" rx="2" fill="#10203A"></rect><rect x="22" y="4" width="2" height="4" rx="1" fill="#10203A" fill-opacity="0.4"></rect></svg>
+        </div>
+      </div>
+
+      <!-- app bar -->
+      <div style="flex:none; padding:2px 20px 10px; display:flex; align-items:center; justify-content:space-between">
+        <div style="display:flex; align-items:center; gap:9px">
+          <svg width="22" height="22" sc-camel-view-box="0 0 24 24"><path d="M8.2 6.2a2 2 0 0 1 2-2h1l.9-1.4h3.8l.9 1.4h1.2a2 2 0 0 1 2 2v6.6a2 2 0 0 1-2 2h-9.8a2 2 0 0 1-2-2z" stroke="#2A6DF4" stroke-opacity="0.42" stroke-width="1.5" fill="none"></path><circle cx="15.1" cy="9.4" r="3.1" stroke="#2A6DF4" stroke-opacity="0.42" stroke-width="1.5" fill="none"></circle><path d="M2.4 12.4A2.9 2.9 0 0 1 5.3 9.5h5.2l4.1 4.1v5.1a2.9 2.9 0 0 1-2.9 2.9H5.3a2.9 2.9 0 0 1-2.9-2.9z" fill="#2A6DF4"></path><path d="M10.5 9.5l4.1 4.1h-3a1.1 1.1 0 0 1-1.1-1.1z" fill="#FFFFFF"></path><path d="M5.6 16.1h5.6M5.6 18.4h3.6" stroke="#FFFFFF" stroke-width="1.4" stroke-linecap="round"></path></svg>
+          <span style="font-size:21px; font-weight:800; color:#10203A; letter-spacing:-0.02em">FrameDiary</span>
+        </div>
+        <div style="width:44px; height:44px; display:flex; align-items:center; justify-content:center; margin-right:-10px">
+          <svg width="22" height="22" sc-camel-view-box="0 0 22 22"><circle cx="11" cy="11" r="3.2" stroke="#4A5A6E" stroke-width="1.8" fill="none"></circle><path d="M11 2.4v2.2M11 17.4v2.2M2.4 11h2.2M17.4 11h2.2M5 5l1.6 1.6M15.4 15.4 17 17M17 5l-1.6 1.6M6.6 15.4 5 17" stroke="#4A5A6E" stroke-width="1.8" stroke-linecap="round"></path></svg>
+        </div>
+      </div>
+
+      <!-- scroll body -->
+      <div style="flex:1; overflow:hidden; display:flex; flex-direction:column; gap:16px; padding:0 20px">
+
+        <!-- empty state strip -->
+        <div style="background:#F2F6FC; border-radius:14px; padding:13px 15px; display:flex; align-items:center; gap:12px">
+          <svg width="22" height="22" sc-camel-view-box="0 0 24 24" style="flex:none"><path d="M8.2 6.2a2 2 0 0 1 2-2h1l.9-1.4h3.8l.9 1.4h1.2a2 2 0 0 1 2 2v6.6a2 2 0 0 1-2 2h-9.8a2 2 0 0 1-2-2z" stroke="#7FA3D8" stroke-opacity="0.55" stroke-width="1.5" fill="none"></path><circle cx="15.1" cy="9.4" r="3.1" stroke="#7FA3D8" stroke-opacity="0.55" stroke-width="1.5" fill="none"></circle><path d="M2.4 12.4A2.9 2.9 0 0 1 5.3 9.5h5.2l4.1 4.1v5.1a2.9 2.9 0 0 1-2.9 2.9H5.3a2.9 2.9 0 0 1-2.9-2.9z" fill="#FFFFFF" stroke="#7FA3D8" stroke-width="1.5"></path><path d="M5.6 16.1h5.6M5.6 18.4h3.6" stroke="#7FA3D8" stroke-width="1.4" stroke-linecap="round"></path></svg>
+          <span style="font-size:13.5px; line-height:1.45; color:#4A5A6E">아직 기록이 없어요. 아래에서 가이드를 만들어 첫 프레임을 남겨보세요.</span>
+        </div>
+
+        <!-- template picker -->
+        <div style="display:flex; align-items:baseline; justify-content:space-between">
+          <span style="font-size:16px; font-weight:700; color:#10203A">템플릿으로 시작</span>
+          <span style="font-size:13.5px; font-weight:600; color:#2A6DF4">전체 보기</span>
+        </div>
+
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px">
+          <div style="position:relative; height:172px; border-radius:16px; overflow:hidden; background:#E3EEFB; outline:3px solid #2A6DF4; outline-offset:-3px">
+            <img src="/assets/framediary/design-preview/template-30.png" alt="사람 템플릿" style="width:100%; height:100%; object-fit:cover; display:block">
+            <div style="position:absolute; inset:auto 0 0 0; height:84px; background:linear-gradient(to top,rgba(255,255,255,0.95),rgba(255,255,255,0))"></div>
+            <div style="position:absolute; top:9px; right:9px; width:24px; height:24px; border-radius:12px; background:#2A6DF4; display:flex; align-items:center; justify-content:center"><svg width="13" height="13" sc-camel-view-box="0 0 13 13"><path d="M3 6.8 5.4 9.2 10 4.2" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+            <div style="position:absolute; left:12px; right:12px; bottom:10px; display:flex; flex-direction:column; gap:1px"><span style="font-size:15.5px; font-weight:700; color:#10203A">사람</span><span style="font-size:12px; font-weight:500; color:#4A5A6E">인물 중심 가이드</span></div>
+          </div>
+          <div style="position:relative; height:172px; border-radius:16px; overflow:hidden; background:#E3EEFB">
+            <img src="/assets/framediary/design-preview/template-22.png" alt="자연 템플릿" style="width:100%; height:100%; object-fit:cover; display:block">
+            <div style="position:absolute; inset:auto 0 0 0; height:84px; background:linear-gradient(to top,rgba(255,255,255,0.95),rgba(255,255,255,0))"></div>
+            <div style="position:absolute; left:12px; right:12px; bottom:10px; display:flex; flex-direction:column; gap:1px"><span style="font-size:15.5px; font-weight:700; color:#10203A">자연</span><span style="font-size:12px; font-weight:500; color:#4A5A6E">풍경, 여행, 야외 장면</span></div>
+          </div>
+          <div style="position:relative; height:172px; border-radius:16px; overflow:hidden; background:#E3EEFB">
+            <img src="/assets/framediary/design-preview/template-36.png" alt="사물 템플릿" style="width:100%; height:100%; object-fit:cover; display:block">
+            <div style="position:absolute; inset:auto 0 0 0; height:84px; background:linear-gradient(to top,rgba(255,255,255,0.95),rgba(255,255,255,0))"></div>
+            <div style="position:absolute; left:12px; right:12px; bottom:10px; display:flex; flex-direction:column; gap:1px"><span style="font-size:15.5px; font-weight:700; color:#10203A">사물</span><span style="font-size:12px; font-weight:500; color:#4A5A6E">제품, 소품, 일상 아이템</span></div>
+          </div>
+          <div style="position:relative; height:172px; border-radius:16px; overflow:hidden; background:#E3EEFB">
+            <img src="/assets/framediary/design-preview/template-37.png" alt="포즈·구도 템플릿" style="width:100%; height:100%; object-fit:cover; display:block">
+            <div style="position:absolute; inset:auto 0 0 0; height:84px; background:linear-gradient(to top,rgba(8,18,32,0.82),rgba(8,18,32,0))"></div>
+            <div style="position:absolute; left:12px; right:12px; bottom:10px; display:flex; flex-direction:column; gap:1px"><span style="font-size:15.5px; font-weight:700; color:#FFFFFF">포즈 · 구도</span><span style="font-size:12px; font-weight:500; color:rgba(255,255,255,0.9)">다양한 구도와 연출</span></div>
+          </div>
+        </div>
+        <div style="display:flex; align-items:baseline; justify-content:space-between; padding-top:2px">
+          <span style="font-size:15.5px; font-weight:700; color:#10203A">최근에 만든 가이드</span>
+          <span style="font-size:13.5px; font-weight:600; color:#2A6DF4">6개</span>
+        </div>
+        <div style="display:flex; gap:10px">
+          <div style="flex:1; display:flex; align-items:center; gap:9px; background:#F7FAFE; border-radius:13px; padding:8px 10px">
+            <div style="width:40px; height:40px; border-radius:10px; overflow:hidden; flex:none"><img src="/assets/framediary/demo_ridge_01_autumn.png" alt="북한산" style="width:100%; height:100%; object-fit:cover; display:block"></div>
+            <div style="display:flex; flex-direction:column; gap:1px"><span style="font-size:13px; font-weight:700; color:#10203A">제주도 여행 가이드</span><span style="font-size:11.5px; color:#8A97A8">자연 · 14회</span></div>
+          </div>
+          <div style="flex:1; display:flex; align-items:center; gap:9px; background:#F7FAFE; border-radius:13px; padding:8px 10px">
+            <div style="width:40px; height:40px; border-radius:10px; overflow:hidden; flex:none"><img src="/assets/framediary/demo_ridge_04_spring.png" alt="벚꽃" style="width:100%; height:100%; object-fit:cover; display:block"></div>
+            <div style="display:flex; flex-direction:column; gap:1px"><span style="font-size:13px; font-weight:700; color:#10203A">봄꽃 촬영 가이드</span><span style="font-size:11.5px; color:#8A97A8">식물 · 9회</span></div>
+          </div>
+        </div>
+        <div style="height:76px; border-radius:16px; background:#F2F6FC; display:flex; align-items:center; gap:12px; padding:0 14px">
+          <div style="width:42px; height:42px; border-radius:12px; background:#EAF1FE; display:flex; align-items:center; justify-content:center; flex:none"><svg width="20" height="20" sc-camel-view-box="0 0 20 20"><path d="M3 15.5c3.5-9 6.5-9 8-4.5s3.5 3.5 6-3" stroke="#2A6DF4" stroke-width="2" fill="none" stroke-linecap="round"></path></svg></div>
+          <div style="flex:1; display:flex; flex-direction:column; gap:2px">
+            <span style="font-size:15px; font-weight:700; color:#10203A">커스텀</span>
+            <span style="font-size:12.5px; color:#6B7A8D">템플릿 없이 자유롭게 만들기</span>
+          </div>
+          <svg width="9" height="16" sc-camel-view-box="0 0 9 16"><path d="M1.5 1.5 7 8l-5.5 6.5" stroke="#B4BEC9" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+        </div>
+      </div>
+      <div style="flex:none; padding:10px 20px 8px">
+        <div style="height:54px; border-radius:16px; background:#2A6DF4; display:flex; align-items:center; justify-content:center; box-shadow:0 8px 20px -8px rgba(42,109,244,0.65)"><span style="font-size:16px; font-weight:700; color:#FFFFFF">다음</span></div>
+      </div>
+      <div style="flex:none; height:22px; display:flex; align-items:flex-start; justify-content:center"><div style="width:134px; height:5px; border-radius:3px; background:#10203A; opacity:0.85"></div></div>
+    </div></div></body></html>

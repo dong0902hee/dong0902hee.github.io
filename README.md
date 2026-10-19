@@ -22,3 +22,7 @@ FrameDiary screenshots render the existing app source at 084a132 using synthetic
 App icon and silhouette templates reuse the existing FrameDiary brand/design assets. The two season images were drawn from primitives by the project's demo generator. Internal HTML-export stock photos, raw private design bundles, device identifiers, secrets and real user media are excluded. No keystore, build outputs or source repository are published.
 
 Gallery screenshots may differ slightly by platform/font and installed app version. No auto-analysis, auto-alignment or medical claims are made. Gallery/share/ZIP, Compare/Stack and guide files remain distinct in the tutorial.
+
+## Revised design gallery
+
+`/apps/framediary/design/preview/` publishes 18 static screen previews from the user-provided revised HTML (source SHA256 `1d649cb9b279e7508ae1ed10a991651070fc12f776c53c4d136d8d69ccadb9af`). The original supplied file is preserved locally and is not published wholesale. Layouts, inline vectors and 38 custom PNG template assets are retained. All JPEG placeholders are replaced by the two repository-owned generated sample images. No bundled JavaScript, remote fonts, stock photographs, runtime internals or raw source bundle are published. Preview buttons are inert; current app screens and tutorial remain separate. This does not change the app design baseline or application code.
