@@ -100,7 +100,7 @@
           </div>
         </div>
         <div style="display:flex; flex-direction:column; gap:14px">
-          <div data-comparison style="--cut:50%;position:relative; aspect-ratio:4/5; border-radius:28px; overflow:hidden; background:#141F2E">
+          <div data-comparison role="slider" tabindex="0" aria-label="이미지 비교 경계" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" style="--cut:50%;position:relative; aspect-ratio:4/5; border-radius:28px; overflow:hidden; background:#141F2E">
             <img loading="lazy" decoding="async" src="/assets/framediary/site-design/mountain.jpg" alt="북한산 가이드 10.28 기록" draggable="false" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; filter:saturate(1.1) sepia(0.2) contrast(1.05) hue-rotate(-6deg)">
             <img loading="lazy" decoding="async" src="/assets/framediary/site-design/mountain.jpg" alt="북한산 가이드 06.18 기록" draggable="false" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; filter:saturate(0.95) brightness(1.12) contrast(0.96) hue-rotate(-4deg); clip-path:inset(0 calc(100% - var(--cut,50%)) 0 0)">
             <span style="position:absolute; top:16px; left:16px; height:30px; padding:0 12px; border-radius:10px; background:rgba(11,20,32,0.62); color:#FFFFFF; font-size:13px; font-weight:700; display:flex; align-items:center; pointer-events:none">2024.06.18</span>
@@ -111,8 +111,7 @@
               <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6 3 12l6 6M15 6l6 6-6 6" stroke="#10203A" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></svg>
             </div>
           </div>
-          <input data-compare-range type="range" min="0" max="100" value="50" aria-label="비교 경계 위치" style="width:100%; accent-color:#2A6DF4; cursor:ew-resize">
-          <span style="font-size:12.5px; font-weight:500; color:#9AA8BA">슬라이더로 경계를 움직여 보세요.</span>
+          <span style="font-size:12.5px; font-weight:500; color:#9AA8BA">화면의 분할 버튼을 좌우로 움직여 비교해 보세요.</span>
         </div>
       </div>
     </section>
@@ -180,4 +179,4 @@
     </div>
   </div>
 </section>
-  <section class="wrap section intro-guide-section"><div class="cta-band"><div><p class="eyebrow">처음 사용하시나요?</p><h2>첫 기록, 함께 시작해볼까요?</h2><p>촬영부터 원본 보기·비교·내보내기까지 차근차근 안내합니다.</p></div><a class="button primary" href="/apps/framediary/guide/">사용 가이드 보기 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div></section></main><footer class="site-footer"><div class="wrap footer-row"><a class="footer-brand" href="/"><img src="/assets/framediary/site-design/brand-mark.svg" width="24" height="24" alt=""><strong>작은 도구, 오래 쓰는 즐거움.</strong></a><nav aria-label="하단 메뉴"><a href="/">모든 앱</a><a href="https://dong0902hee.github.io/privacy-policy/framediary.html">개인정보처리방침</a><a href="mailto:won09026@gmail.com">문의</a><a href="https://github.com/dong0902hee">GitHub</a><span>© 2026 dong0902hee</span></nav></div><div class="wrap footer-credit"><span>디자인 시안 속 예시 사진: Unsplash · 현재 앱 화면의 예시는 자체 제작 이미지</span><a href="/apps/framediary/credits/">이미지·폰트 출처</a></div></footer><dialog id="image-viewer" aria-label="앱 화면 크게 보기"><div class="viewer-toolbar"><span id="viewer-caption"></span><form method="dialog"><button aria-label="화면 닫기">닫기 ×</button></form></div><img id="viewer-image" alt=""></dialog><script src="/assets/site-ui-f37cfd10e09d.js" defer></script></body></html>
+  <section class="wrap section intro-guide-section"><div class="cta-band"><div><p class="eyebrow">처음 사용하시나요?</p><h2>첫 기록, 함께 시작해볼까요?</h2><p>촬영부터 원본 보기·비교·내보내기까지 차근차근 안내합니다.</p></div><a class="button primary" href="/apps/framediary/guide/">사용 가이드 보기 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div></section></main><footer class="site-footer"><div class="wrap footer-row"><a class="footer-brand" href="/"><img src="/assets/framediary/site-design/brand-mark.svg" width="24" height="24" alt=""><strong>작은 도구, 오래 쓰는 즐거움.</strong></a><nav aria-label="하단 메뉴"><a href="/">모든 앱</a><a href="https://dong0902hee.github.io/privacy-policy/framediary.html">개인정보처리방침</a><a href="mailto:won09026@gmail.com">문의</a><a href="https://github.com/dong0902hee">GitHub</a><span>© 2026 dong0902hee</span></nav></div><div class="wrap footer-credit"><span>디자인 시안 속 예시 사진: Unsplash · 현재 앱 화면의 예시는 자체 제작 이미지</span><a href="/apps/framediary/credits/">이미지·폰트 출처</a></div></footer><dialog id="image-viewer" aria-label="앱 화면 크게 보기"><div class="viewer-toolbar"><span id="viewer-caption"></span><form method="dialog"><button aria-label="화면 닫기">닫기 ×</button></form></div><img id="viewer-image" alt=""></dialog><script src="/assets/site-ui-603450e2d5c9.js" defer></script></body></html>
