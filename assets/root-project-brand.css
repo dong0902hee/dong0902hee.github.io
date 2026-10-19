@@ -1,0 +1,6 @@
+.root-projects .brand-monogram{font-size:30px;letter-spacing:-.055em;white-space:nowrap}
+.root-projects .brand-sub{letter-spacing:.14em}
+@media(max-width:720px){.root-projects .header-row{flex-wrap:wrap}.root-projects .brand-monogram{font-size:26px}.root-projects .header-row nav{gap:4px}.root-projects .header-row nav a{font-size:12px}}
+@media(max-width:380px){.root-projects .header-row{gap:8px}.root-projects .brand-monogram{font-size:24px}.root-projects .header-row .brand{font-size:14px;gap:8px}.root-projects .header-row nav a{font-size:11px;padding-inline:3px}}
+
+.root-projects .root-footer-mark{color:#2a6df4;font-weight:900;font-size:20px;letter-spacing:-.055em}
